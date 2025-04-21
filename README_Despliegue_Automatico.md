@@ -19,3 +19,6 @@ En tu repositorio, ve a **Settings > Secrets > Actions** y agrega las siguientes
 - `APP_RUNNER_SERVICE_ARN` - ARN del servicio App Runner (ej: `arn:aws:apprunner:us-east-1:123456789012:service/backendmanos/...`)
 
 Una vez configurado, cada `git push` desplegará el backend automáticamente.
+
+<!-- Despliegue automático activado -->
+
