@@ -21,4 +21,5 @@ En tu repositorio, ve a **Settings > Secrets > Actions** y agrega las siguientes
 Una vez configurado, cada `git push` desplegará el backend automáticamente.
 
 <!-- Despliegue automático activado -->
+<!-- trigger deploy -->
 
