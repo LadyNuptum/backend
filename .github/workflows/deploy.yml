@@ -34,7 +34,6 @@ jobs:
 
       - name: Build JAR with Maven
         run: mvn clean package -DskipTests
-        working-directory: ./backend
 
       - name: Confirm JAR exists
         run: ls -l target && test -f target/app.jar
