@@ -98,7 +98,7 @@
         <groupId>org.springframework.boot</groupId>
         <artifactId>spring-boot-maven-plugin</artifactId>
         <configuration>
-          <mainClass>com.taller.ecommerce.EcommerceApplication</mainClass>
+          <mainClass>com.manoslocales.ManosLocales.Ecommerce.EcommerceApplication</mainClass>
         </configuration>
       </plugin>
     </plugins>
