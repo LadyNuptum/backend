@@ -48,8 +48,14 @@ jobs:
 
       - name: Update AWS App Runner service
         run: |
-
-         aws apprunner update-service \
-            --service-arn ${{ secrets.APP_RUNNER_SERVICE_ARN }} \
-            --source-configuration "{\"ImageRepository\":{\"ImageIdentifier\":\"${{ secrets.ECR_REPOSITORY_URI }}:latest\",\"ImageRepositoryType\":\"ECR\",\"ImageConfiguration\":{\"Port\":\"8080\"}}}"
-
+          aws apprunner update-service \
+          --service-arn ${{ secrets.APP_RUNNER_SERVICE_ARN }} \
+          --source-configuration '{
+            "ImageRepository": {
+              "ImageIdentifier": "${{ secrets.ECR_REPOSITORY_URI }}:latest",
+              "ImageRepositoryType": "ECR",
+              "ImageConfiguration": {
+              "Port": "8080"
+              }
+            }
+          }'
