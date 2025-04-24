@@ -5,7 +5,7 @@ Este proyecto contiene un backend Java desarrollado con **Spring Boot**, configu
 ---
 
 ## 📦 Estructura
-
+ 
 - `pom.xml` → configuración del proyecto Maven 
 - `src/` → código fuente del backend
 - `Dockerfile` → imagen base para despliegue
