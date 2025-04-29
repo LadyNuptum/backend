@@ -6,7 +6,7 @@ Este repositorio contiene una plantilla de backend basada en **Spring Boot** par
 
 ## 📦 Tecnologías Utilizadas
 
-- Java 17
+- Java 17 
 - Spring Boot 3
 - Spring Data JPA
 - Spring Security + JWT
